@@ -24,3 +24,14 @@ alias eclipse='/home/petey/local/eclipse/./eclipse'
 alias sublime='/home/petey/local/sublime_text_3/./sublime_text'
 alias arduino='/home/petey/local/arduino-1.6.5/./arduino'
 
+# take a survey of the local net
+alias netScan_eth='sudo arp-scan --interface=enp0s25 --localnet'
+alias netScan_wlan='sudo arp-scan --interface=wlp3s0 --localnet'
+
+
+# eclipse and associated 
+alias eclipse='/home/petey/local/eclipse/./eclipse'
+
+# sublime
+alias sublime='/home/petey/local/sublime_text_3/./sublime_text'
+alias atom='sudo atom --force-device-scale-factor=1'
