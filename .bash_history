@@ -1,193 +1,3 @@
-chmod 755 toggletouchpad.sh 
-ls
-cd local/
-ls
-mkdir spf13
-mv spf13-vim.sh spf13/
-ls
-mkdir pi
-cd pi
-git clone https://github.com/raspberrypi/tools.git
-ls
-mv tmux_tmp/ local/tmux/
-cd local/
-ls
-cd pi/
-nano com.sh
-ping 10.1.1.1
-ssh 10.1.1.9
-sudo pacman -Syu ssh
-sudo pacman -Syu openssh
-ssh 10.1.1.9
-ssh petey@10.1.1.9
-ssh root@10.1.1.9
-ping 10.1.1.9
-ssh root@10.1.1.9
-ssh petey@10.1.1.9
-ssh pi@10.1.1.9
-sudo shutdown -h now
-xev
-ls
-cd local/
-ls
-cd pi
-ls
-Shell
-￼
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-jem@jem:~$ ls tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/
-ls tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/
-ls -l tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/
-cat > hello.c
-ls
-lding and running an ARM program on a non-ARM architectureShell
-￼
-1
-2
-3
-4
-5
-jem@jem:~$ tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc hello_world.c -o hello_world
-tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc hello.c -o hello_world
-l
-tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc hello.c -o hello
-file hello
-ls
-less com.sh 
-ls
-tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc hello.c -o hello
-echo 'export PATH=$HOME/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin:$PATH' >> .bashrc
-source .bashrc
-echo 'export PATH=$HOME/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin:$PATH' >> .bashrc
-source .bashrc
-ls
-nano dsitcc_ENABLE.sh
-distcc
-which distcc
-ls
-mv dsitcc_ENABLE.sh distcc_ENABLE.sh
-cmod 755 distcc_ENABLE.sh 
-chmod 755 distcc_ENABLE.sh 
-distcc
-ls
-cd ..
-ls
-cd pi
-ls
-cd tools/
-ls
-cd ..
-sudo apt-get install libgtk2.0-dev distcc
-sudo pacman -Syu libgtk2.0-dev distcc
-sudo pacman -Syu distcc
-ls
-less com.sh 
-cd local/pi/ls
-cd local/pi/
-ls
-cd /home/petey//local/pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
-cd /home/petey/local/pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
-ls
-cd
-ssh petey@MAAPR
-ssh petey@10.1.1.9
-gcc 
-cat > test.c
-nano test.c 
-gcc -Wall -Werror -O -o test test.c 
-nano test.c 
-gcc -Wall -Werror -O -o test test.c 
-file test
-./test 
-rm test*
-ls
-less runDist.sh 
-nano .bashrc 
-sudo apt-get install subversion autoconf automake python python-dev
-sudo pacman -Syu subversion autoconf automake python python-dev
-sudo pacman -Syu subversion
-svn checkout http://distcc.googlecode.com/svn/trunk/ distcc-read-only
-ls
-mv distcc-read-only/ local/pi/
-cd local/pi/
-ls
-cd distcc
-cd distcc-read-only/
-./autogen.sh 
-sudo ./configure
-./configure --with-gtk && make && sudo make install
-sudo ./configure --with-gtk && make && sudo make install
-idstcc
-which distcc
-distcc --version
-cd
-nano .bashrc
-nano distcc_ENABLE.sh
-nano distcc_DISABLE.sh
-nano runDist
-nano runDist 
-chmod 755 distcc_ENABLE.sh distcc_DISABLE.sh runDist 
-mv runDist runDist.sh
-ls
-./distcc_ENABLE.sh 
-./runDist.sh 
-ls /sys/class/power_supply
-date
-locale
-HARDWARECLOCK="UTC"
-time
-date
-$ ls -l /usr/share/zoneinfo
-hwclock --systohc --utc
-sudo hwclock --systohc --utc
-hwclock 
-sudo hwclock 
-timedatectl
-timedatectl set-time "2015-07-16 11:34:30
-
-"
-timedatectl set-time "2015-07-16 11:34:30"
-$ timedatectl | grep local
-timedatectl | grep local
-timedatectl set-local-rtc 1
-timedatectl | grep local
-$ timedatectl | grep local
-timedatectl
-sudo pacman -Syu ntp
-sudo systemctl enable ntpd.service
 cd /etc/netc
 cd /etc/netctl
 ls
@@ -1886,3 +1696,305 @@ make
 sudo xrandr -dpi 96
 sudo xrandr --dpi 96
 alsamixer
+sublime
+cd school/cs6771/assignments/ass1/
+make
+./calculator test5
+make
+;make
+make
+./calculator test5
+make
+./calculator test5
+make
+./calculator test5
+make
+./calculator test5
+make
+./calculator test5
+make
+./calculator test5
+make
+./calculator test5
+./calculator sample1
+cd ../..
+ls
+git add .
+git commit -m "updated assignment. re-designed repetition handling. it is working correctly now."
+git push
+cd .i3/
+l;s
+ls
+ls -lah
+cd ..
+ls
+dummyI3
+mkdir dummyI3
+cd dummyI3/
+git clone https://github.com/pete-bot/i3config.git
+ls
+cd i3config/
+ls
+ls -lah
+rm -R .i3 README.md .bash*
+ls -lah
+rm -R extMon 95-monitor-hotplug.rules 
+ls
+cd ..
+ls
+cd ..
+;s
+ls
+rm -R dummyI3/
+y
+yls
+ls
+git clone https://github.com/pete-bot/i3config.git
+mv i3config/ i3configBACKUP
+ls
+cd i3configBACKUP/
+git add .
+git commit -m "updated i3 config files"
+git push
+cd utils/
+./extMon 
+cd
+cd Downloads/
+df -h
+ls /dev
+umount /dev/sdc1
+unzip 2015-05-05-raspbian-wheezy.zip 
+dd bs=4M if=2015-05-05-raspbian-wheezy.img of=/dev/sdd
+ls /dev
+dd bs=4M if=2015-05-05-raspbian-wheezy.img of=/dev/sdc
+sudo dd bs=4M if=2015-05-05-raspbian-wheezy.img of=/dev/sdc
+which dcfldd
+sudo pacman -Syu dcfldd
+cd school/
+ls
+mkdir nonCS
+mv math2099/ phys1131/ nonCS/
+ls
+rm calculator.cpp 
+cd cs6771/assignments/ass1/
+mak
+make
+cd school/cs3431/
+cd school/cs1927
+rm -R tutor
+ls
+cd tutorials/
+ls
+mv COMP1927\ 15s2\ -\ Week\ 02\ Tutorial.pdf wk02_sols.pdf
+ls
+cd school/
+mkdir cs3431
+ls
+cd cs3431/
+vim week2
+ls
+cd Downloads/
+;ls
+ls
+rm wk02_no_sols.pdf 
+cd ..
+cd school/cs6771/
+ls
+cd lecture/
+ls
+evince lec02-1.pdf 
+arp-scan -l wlp3s25
+ip addr
+arp-scan -l wlp3s0
+sudo arp-scan -l wlp3s0
+sudo arp-scan -l enp0s25
+arp-scan -l enp0s25
+sublime &
+cd school/cs1927/
+ls
+cd tutorials/
+ls
+mkdir week2
+mv wk02_* week2/
+cd week2/
+ls
+gcc -Wall -Werror -O -o switch switch.c 
+./switch
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+gcc -Wall -Werror -O -o switch switch.c 
+./switch 
+pulseaudio 
+cd .i3
+ls
+nano config 
+utils/./extMon 
+xrandr --dpi 96
+sublime 
+cd school/cs6771/assignments/ass1/
+man rmdir
+man man 
+info man 
+make
+less test
+./calculator test
+less test
+make
+./calculator test
+./calculator testererere
+make
+./calculator sample
+less sample
+ls
+./calculator sample1
+make
+./calculator sample1
+make
+./calculator sample1
+make
+./calculator sample1
+make
+./calculator sample1
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+make
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+./output 
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+./output 
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+./output 
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+./output 
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+./output 
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+./output 
+make
+g++ -std=c++11 -Wall -Werror -O2 -o output output.cpp 
+./calculator sample1
+make
+./calculator sample1
+./calculator test
+./calculator test1
+less test1
+./calculator test1
+less test1
+cd school/cs6771/assignments/ass1/
+less test1
+ping 8.8.8.8
+sublie
+sublime 
+cd school/cs6771/assignments/
+mkdir ass1_mk1
+mkdir ass1_mk2
+mv ass1 ass1_mk1
+ls
+man bool
+cd ass1_mk2/
+ls
+cd ..
+cd ass1_mk
+ls
+cd ass1_mk1
+cd ass1/
+mv . ..
+ls
+mv * ..
+ls
+cd ..
+ls
+rm -R ass1
+cd ..
+ls
+mv ass1_mk1 ass1_v1
+mv ass1_mk2/ ass1_v2
+ls
+cd ass1_v2
+ls
+make
+cat test1
+cat > test1
+echo test1 
+cat test1 
+./calculator test1 
+make
+cd ..
+ls
+cd ass1_v1
+ls
+make
+./calculator testr
+./calculator test
+./calculator test1
+./calculator test2
+make
+./calculator test1
+make
+./calculator test1
+make
+./calculator test1
+./calculator sample1
+make
+./calculator test
+make
+./calculator test
+./calculator sample
+./calculator sample1
+make
+./calculator sample1
+make
+./calculator sample1
+make
+./calculator sample1
+cat > sample3
+./calculator sample3
+gcc --version
+which g++
+g++ --version
+sudo reboot
+sublime 
+matlab
+sudo pacman -Syu okular
+ls
+cd /etc/X11/xorg.conf.d/
+ls
+subi
+sublime 
+cd school/cs6771/assignments/ass1_v1
+make
+./calculator 
+make
+./calculator 
+make
+./calculator 
+./calculator test
+head -i less
+man head
+cd /boot/grub/
+ls
+less grub.cfg
+sudo less grub.cfg
+matlab
+gedit
+gedit
+gedit &
+test
+matlab 
+alsamixer 
+matlab
+matlab
+matlab 
